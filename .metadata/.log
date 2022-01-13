@@ -6723,3 +6723,446 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2021-01-11 08:57:28.274
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-01-12 20:35:52.384 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=11.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 4 567 2022-01-12 20:35:55.622
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-01-12 20:35:55.622
+!MESSAGE Could not read metadata for 'spring-boot-ionic-backend'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/spring-boot-ionic-backend)[567]: java.lang.Exception: The project description file (.project) for 'spring-boot-ionic-backend' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:843)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:792)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-01-12 20:35:55.623
+!MESSAGE The project description file (.project) for 'spring-boot-ionic-backend' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'spring-boot-ionic-backend' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2452)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2210)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:843)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:792)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:346)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:171)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1420)
+
+!ENTRY org.eclipse.ui 2 0 2022-01-12 20:35:57.096
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-12 20:35:57.096
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-12 20:36:00.731
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-12 20:36:00.731
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a349a73,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ad6895a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-01-12 20:36:11.680
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/spring-boot-ionic-backend/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2022-01-12 20:36:11.681
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2022-01-12 20:36:11.681
+!MESSAGE Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 20:36:24.826
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-01-12 21:16:54.722 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=11.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-01-12 21:16:59.336
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-12 21:16:59.336
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-12 21:17:03.663
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-12 21:17:03.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@350be5ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@478cebdb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-01-12 21:17:14.615
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/spring-boot-ionic-backend/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2022-01-12 21:17:14.616
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2022-01-12 21:17:14.616
+!MESSAGE Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 21:17:40.075
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-01-12 21:17:41.668 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=11.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-01-12 21:17:45.762
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-01-12 21:17:45.762
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2022-01-12 21:17:48.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-12 21:17:48.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ce62e27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3538a129,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-01-12 21:18:00.242
+!MESSAGE failed to load maven project for org.eclipse.ui.part.FileEditorInput(/spring-boot-ionic-backend/pom.xml)
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2022-01-12 21:18:00.244
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2022-01-12 21:18:00.244
+!MESSAGE Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-readable POM /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml: /mnt/70AEE1DFAEE19DBA/REDE/WS-JAVA/sds5/dsmovie/spring-boot-ionic-backend/pom.xml (Arquivo ou diretório inexistente) @ 
+
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProjects(MavenImpl.java:676)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$13(ProjectRegistryManager.java:870)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:1027)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:866)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:835)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:634)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$3.run(MavenPomEditor.java:938)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 21:18:43.917
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
