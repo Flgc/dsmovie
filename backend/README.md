@@ -28,7 +28,6 @@
 
 [**Sobre**](https://github.com/Flgc/dsmovie#-sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Demonstração**](https://github.com/Flgc/dsmovie#-demonstra%C3%A7%C3%A3o-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Layout Web**](https://github.com/Flgc/dsmovie#-layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo Conceitual**](https://github.com/Flgc/dsmovie#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo em Camadas**](https://github.com/Flgc/dsmovie#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Tecnologias utilizadas**](https://github.com/Flgc/dsmovie#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
