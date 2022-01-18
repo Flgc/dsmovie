@@ -1,46 +1,131 @@
-# Getting Started with Create React App
+<div align = "center">
+<h1>Semana DevSuperior 6.0</h1>
+<h3>Aplicação Web para Avaliação de Filmes</h3>
+<hr>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Java](https://img.shields.io/badge/-Java-DE252C?style=flat-square&logo=java&logoColor=white)
+![Node.Js](https://img.shields.io/badge/Node.js-43853D?style=for-the-square&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React%20JS-262B32?style=flat-square&logo=react&logoColor=00D0F6)
+![BootStrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+![Css](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![VSCode](https://img.shields.io/badge/-VSCode-0085D1?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![NetLify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-square&logo=heroku&logoColor=white)
+![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-square&logo=yarn&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-square&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-square&logo=windows&logoColor=white)
 
-## Available Scripts
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Flgc/dsmovie/blob/main/LICENSE)
+<br>
+<br>
 
-In the project directory, you can run:
+</div>
 
-### `yarn start`
+<div align="center">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[**Sobre**](https://github.com/Flgc/dsmovie#-sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Demonstração**](https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/dsmovie.gif) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Layout Web**](https://github.com/Flgc/dsmovie#-layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Modelo Conceitual**](https://github.com/Flgc/dsmovie#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Modelo em Camadas**](https://github.com/Flgc/dsmovie#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Tecnologias utilizadas**](https://github.com/Flgc/dsmovie#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Como instalar e executar o projeto**](https://github.com/Flgc/dsmovie#-como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Contato**](https://github.com/Flgc/dsmovie#-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</div><br><br>
 
-### `yarn test`
+## 📃 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://dsmovie-flgc.netlify.app
 
-### `yarn build`
+<p align="justify">O projeto foi desenvolvido durante a Semana DevSuperior 6.0. Consiste em uma aplicação web para avaliação de filmes de de acordo com as votações dos visitantes. O ponto forte do projeto foi o trabalho em equipe com a comunidade do Discord. Durante a maratona de uma semana, tivemos a oportunidade de conviver com diferentes Devs e ecossistemas.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O principal requisito funcional que foi solicitado no evento foi a comunicação entre o back-end implementado em spring boot com o front-end em react, bootstrap, typescript e JS.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O Projeto for desenvolvido no Linux Mint 20.1, mas nada impede de ser implementado no windows.
+<br><br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌎 Demonstração Web
+<h1>
+<img src="https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/dsmovie.gif">
+</h1><br>
 
-### `yarn eject`
+## 🌎 Modelo conceitual
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Image](https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/mconceitual.png))
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌎 Modelo em camadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Image](https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/pcamadas.png))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 🚀 Tecnologias utilizadas
 
-## Learn More
+## Back end
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Java
+- Spring boot
+- H2 database
+- PostgreSQL
+- Heroku
+- Postman
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Implantação em produção
+
+- Back end: Heroku
+- Front end web: Netlify
+- Banco de dados: Postgresql
+  <br><br>
+
+# 🔧 Como instalar e executar o projeto
+
+## Back end
+
+Pré-requisitos: Java 11
+
+```bash
+# clonar repositório
+git clone https://github.com/Flgc/dsmovie
+
+# entrar na pasta do projeto back end
+cd backend
+
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+## Front end web
+
+Pré-requisitos: yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/Flgc/dsmovie
+
+# entrar na pasta do projeto front end web
+cd frontend
+
+# instalar dependências
+yarn install
+
+# executar o projeto
+yarn start
+
+# Access localhost
+http://localhost:8000
+
+```
+
+# 📲 Contato
+
+Fabio Luis Guia da Conceição
+
+<a href="https://www.linkedin.com/in/fabio-luis-guia-da-conceição-77784741"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+
+---
+
+<h5 align="center">
+  &copy;01/2022 - <a href="https://github.com/Flgc/">Fábio Luis</a>
+</h5>
