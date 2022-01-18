@@ -27,7 +27,7 @@
 <div align="center">
 
 [**Sobre**](https://github.com/Flgc/dsmovie#-sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Demonstração**](https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/dsmovie.gif) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Demonstração**](https://github.com/Flgc/dsmovie#-demonstra%C3%A7%C3%A3o-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Layout Web**](https://github.com/Flgc/dsmovie#-layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo Conceitual**](https://github.com/Flgc/dsmovie#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo em Camadas**](https://github.com/Flgc/dsmovie#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
@@ -50,7 +50,7 @@ O Projeto for desenvolvido no Linux Mint 20.1, mas nada impede de ser implementa
 
 ## 🌎 Demonstração Web
 <h1>
-<img src="https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/img/dsmovie.gif">
+<img src="https://github.com/Flgc/dsmovie/blob/main/frontend/src/assets/dsmovie.gif">
 </h1><br>
 
 ## 🌎 Modelo conceitual
